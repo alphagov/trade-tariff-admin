@@ -20,7 +20,7 @@ class Rollback
   end
 
   def user
-    @user ||= User.find(id: user_id)
+    @user ||= User.find_by(id: user_id)
   end
 
   def initialize_errors

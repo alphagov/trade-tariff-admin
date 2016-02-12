@@ -22,6 +22,6 @@ describe "Tariff Update listing" do
     expect(page).to have_content 'Missing'
     expect(page).to have_content "ChiefImporter::ImportException"
     expect(page).to have_content "logger_spec.rb:179"
-    expect(page).to have_content "(Sequel::Mysql2::Database)"
+    expect(page).to have_content "(ActiveRecord::Mysql2::Database)"
   end
 end
