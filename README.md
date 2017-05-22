@@ -3,10 +3,12 @@
 
 # Trade Tariff Admin
 
+__Now maintained at https://github.com/bitzesty/trade-tariff-frontend__
+
 The admin interface for the the Trade Tariff, to be used with:
 
-* [Trade Tariff Backend](https://github.com/alphagov/trade-tariff-backend)
-* [Trade Tariff Frontend](https://github.com/alphagov/trade-tariff-frontend)
+* [Trade Tariff Backend](https://github.com/bitzesty/trade-tariff-backend)
+* [Trade Tariff Frontend](https://github.com/bitzesty/trade-tariff-frontend)
 
 Please ensure the backend API is running and properly configured in the
 environment files.
